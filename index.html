@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <h1 id='title'>Application form</h1>
+<p id="description" class='p-description'>Trip to Italy [August 10 - August 30, 2024]</p>
+<form id='survey-form'>
+ <fieldset>
+    <label for='name' id='name-label'>Name <input id='name' type='text' required placeholder='Name'>
+</label>
+<label for='surname' id='surname-label'>
+  Surname <input id='surname' type='text' required placeholder= 'Surname'>
+</label>
+  <label for='email' id='email-label'>Email <input id='email' type='email' required placeholder='your@mail.com'> 
+</label>
+  <label for='age' id='number-label'>
+       Age
+     <input id='number' type='number' min='16' max='120' placeholder='16' required>
+  </label>
+ <label> 
+   Sex
+  <select id='dropdown' required>
+    <option value=''></option>
+    <option value='man'>Man</option>
+    <option value='woman'>Woman</option>
+  </select>
+  </label>
+</fieldset> 
+ <fieldset required>
+   <p>English level (Speaking)</p>
+    <label><input type='radio' value='a-1' name='english-level' checked>A1 (Elementary)</label>
+ <label><input type='radio' value='a-2' name='english-level'>A2 (Pre-intermediate)</label>
+ <label><input type='radio' value='a-3' name='english-level'>B1 (Intermediate)</label>
+ <label><input type='radio' value='a-1' name='english-level'>B2 (Upper-intermediate)</label>
+ <label><input type='radio' value='a-2' name='english-level'>C1 (Advanced)</label>
+ <label><input type='radio' value='a-3' name='english-level'>C2 (Proficiency)</label>
+ </fieldset>
+  <fieldset>
+   <p>Italian level (Speaking)</p>
+    <label><input type='radio' value='a-1' name='italian-level' checked>A1 (Elementary)</label>
+ <label><input type='radio' value='a-2' name='italian-level'>A2 (Pre-intermediate)</label>
+ <label><input type='radio' value='a-3' name='italian-level'>B1 (Intermediate)</label>
+ <label><input type='radio' value='a-1' name='italian-level'>B2 (Upper-intermediate)</label>
+ <label><input type='radio' value='a-2' name='italian-level'>C1 (Advanced)</label>
+ <label><input type='radio' value='a-3' name='italian-level'>C2 (Proficiency)</label>
+ </fieldset>
+<fieldset>
+  <p>What cities would you like to visit?</p>
+  <label><input type="checkbox"  value="1" name='city' checked>Any</label>
+  <label><input type="checkbox"  value="1" name='city'>Milan</label>
+  <label><input type="checkbox" value="2" name='city'>Palermo</label>
+   <label><input type="checkbox"  value="1" name='city'>Florence</label>
+  <label><input type="checkbox" value="2" name='city'>Rome</label>
+</fieldset>
+<fieldset>
+  <label for='bio'>
+    <p>Give a few words about yourself</p>
+    <textarea id='bio' name='bio' placeholder='Italy for me...' required ></textarea>
+  </label>
+  </fieldset>
+<fieldset>
+  <input type='submit' id='submit' value='Sumbit'> 
+</fieldset>
+</form>
+  </body>

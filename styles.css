@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp8689767.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: black; 
+  }
+  
+  h1, p[class='p-description'] {
+    margin: 1em auto;
+    text-align: center;
+    color: white; 
+  
+  }
+  
+  form {
+    width: 100vh; 
+    max-width: 500px;
+    background-color: white;
+    margin: 0 auto; 
+    border-radius: 10px;
+  }
+  fieldset {
+    border: none;
+    padding-top: 0.5em;
+  }
+  
+  
+  label {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  label[for='bio'] {
+    display: block;
+  }
+
+  input[type='submit'] {
+    display: block;
+    width: 50%;
+    margin: 1em auto 0.7em auto;
+    background:linear-gradient(89.29017710180983deg, rgba(43, 186, 74,1) 29.939236111111114%,rgba(255, 255, 255,1) 29.939236111111114%,rgba(255, 255, 255,1) 69.17534722222221%,rgba(237, 0, 0,1) 69.17534722222221%);
+    color: black;
+    border: 1px solid black;
+  }
+  input[type='submit']:hover {
+    filter: grayscale(0.2); 
+  }
